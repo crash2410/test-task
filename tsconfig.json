@@ -1,0 +1,27 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "types": ["jest", "node"],
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "allowImportingTsExtensions": true
+  }
+}
